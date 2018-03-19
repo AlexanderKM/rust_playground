@@ -4,8 +4,7 @@
 
 extern crate rocket;
 #[macro_use] extern crate serde_derive;
-#[macro_use] extern crate rocket_contrib;
-
+extern crate rocket_contrib;
 
 use rocket_contrib::Json;
 
